@@ -105,7 +105,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
             styleMask: [.titled, .closable, .miniaturizable, .fullSizeContentView],
             backing: .buffered, defer: false
         )
-        w.title = "MusicOverlay Settings"
+        w.title = "Orpheus Settings"
         w.center()
         w.isReleasedWhenClosed = false
         w.delegate = self

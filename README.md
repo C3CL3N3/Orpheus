@@ -1,12 +1,22 @@
-# MusicOverlay
+# Orpheus
 
 A lightweight macOS overlay that sits on top of your screen and shows what's currently playing - album art, track name, and artist - for both Spotify and Apple Music.
 
 No menu bar icon, no dock icon. Just a clean, draggable bubble that stays out of your way.
 
-![macOS](https://img.shields.io/badge/macOS-13%2B-black?style=flat-square)
-![Swift](https://img.shields.io/badge/Swift-5.9-orange?style=flat-square)
+![macOS](https://img.shields.io/badge/macOS-26%2B-black?style=flat-square)
+![Swift](https://img.shields.io/badge/Swift-5.0-orange?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
+
+---
+
+## Download
+
+**[Download the latest DMG from Releases →](../../releases/latest)**
+
+1. Open `Orpheus-1.0.dmg`
+2. Drag **Orpheus.app** into your **Applications** folder
+3. Right-click the app → **Open** (required on first launch since the app is not notarized yet)
 
 ---
 
@@ -26,12 +36,10 @@ No menu bar icon, no dock icon. Just a clean, draggable bubble that stays out of
 
 ## Requirements
 
-- macOS 13 Ventura or later
-- Xcode 15 or later (to build from source)
+- macOS 26 Tahoe or later
+- Xcode 26 or later (to build from source)
 
-## Installation
-
-Clone the repo and open the project in Xcode:
+## Build from source
 
 ```bash
 git clone https://github.com/enzocurci/MusicOverlay.git
@@ -61,7 +69,7 @@ Build and run with **⌘R**. The overlay will appear on screen immediately.
 
 ## How it works
 
-MusicOverlay uses macOS's private **MediaRemote** framework to read now-playing info system-wide, and listens to **Spotify** and **Apple Music** distributed notifications for real-time playback state. No third-party dependencies.
+Orpheus uses macOS's private **MediaRemote** framework to read now-playing info system-wide, and listens to **Spotify** and **Apple Music** distributed notifications for real-time playback state. No third-party dependencies.
 
 ## Contributing
 

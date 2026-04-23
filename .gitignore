@@ -21,3 +21,6 @@ DerivedData/
 
 # Derived / build output
 build/
+
+# Release DMG (upload to GitHub Releases, don't commit)
+release/

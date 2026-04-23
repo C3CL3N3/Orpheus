@@ -27,7 +27,7 @@ struct ContentView: View {
         .contextMenu {
             Button("Settings…") { openSettings() }
             Divider()
-            Button("Quit MusicOverlay") { NSApp.terminate(nil) }
+            Button("Quit Orpheus") { NSApp.terminate(nil) }
         }
     }
 
