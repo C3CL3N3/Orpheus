@@ -1,6 +1,6 @@
 # MusicOverlay
 
-A lightweight macOS overlay that sits on top of your screen and shows what's currently playing — album art, track name, and artist — for both Spotify and Apple Music.
+A lightweight macOS overlay that sits on top of your screen and shows what's currently playing - album art, track name, and artist - for both Spotify and Apple Music.
 
 No menu bar icon, no dock icon. Just a clean, draggable bubble that stays out of your way.
 
@@ -15,13 +15,13 @@ No menu bar icon, no dock icon. Just a clean, draggable bubble that stays out of
 - Works with **Spotify** and **Apple Music** out of the box
 - Displays album artwork, track name, and artist
 - Live progress bar with optional elapsed / total time
-- Multiple layout options — side by side or stacked
+- Multiple layout options - side by side or stacked
 - Background themes: Frosted glass, System (dark/light adaptive), Artwork color, Dark, Light, Midnight, Ocean, or any custom color
 - Smooth scrolling for long track titles
 - Pause overlay on the artwork when playback stops
 - Auto-hide when nothing is playing
 - Fully customizable through a right-click settings panel
-- Draggable — place it wherever you want on screen
+- Draggable - place it wherever you want on screen
 - Snap to screen corners (top/bottom left/right)
 
 ## Requirements
@@ -69,4 +69,4 @@ Pull requests are welcome. Open an issue first if you're planning something bigg
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
