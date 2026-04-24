@@ -42,9 +42,9 @@ No menu bar icon, no dock icon. Just a clean, draggable bubble that stays out of
 ## Build from source
 
 ```bash
-git clone https://github.com/enzocurci/MusicOverlay.git
-cd MusicOverlay
-open MusicOverlay.xcodeproj
+git clone https://github.com/enzocurci/Orpheus.git
+cd Orpheus
+open Orpheus.xcodeproj
 ```
 
 Build and run with **⌘R**. The overlay will appear on screen immediately.
@@ -70,6 +70,13 @@ Build and run with **⌘R**. The overlay will appear on screen immediately.
 ## How it works
 
 Orpheus uses macOS's private **MediaRemote** framework to read now-playing info system-wide, and listens to **Spotify** and **Apple Music** distributed notifications for real-time playback state. No third-party dependencies.
+
+## Future improvements
+
+- [x] Settings persistence across app restarts
+- [x] Text color automatically adapted to background for better visibility
+- [x] Fix the Shape setting (artwork shape was not persisting — fixed alongside settings persistence)
+- [x] Stacked layout width: reduce maximum and extend minimum range
 
 ## Contributing
 

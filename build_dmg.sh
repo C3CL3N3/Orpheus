@@ -13,8 +13,8 @@ RELEASE_DIR="$(dirname "$0")/release"
 echo "==> Building Orpheus $VERSION..."
 rm -rf "$ARCHIVE" "$STAGE"
 
-xcodebuild -project MusicOverlay.xcodeproj \
-  -scheme MusicOverlay \
+xcodebuild -project Orpheus.xcodeproj \
+  -scheme Orpheus \
   -configuration Release \
   -archivePath "$ARCHIVE" \
   archive \
